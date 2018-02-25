@@ -1,0 +1,51 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+#I am here
+#/dist
+#/tmp
+#/out-tsc
+#I am here
+
+# dependencies
+#/node_modules
+
+# IDEs and editors
+#I am here
+#/.idea
+#.project
+#.classpath
+#.c9/
+#*.launch
+#.settings/
+#*.sublime-workspace
+#I am here
+# IDE - VSCode
+#I am here
+#.vscode/*
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
+#I am here
+# misc
+#I am here
+#/.sass-cache
+#/connect.lock
+#/coverage
+#/libpeerconnection.log
+#npm-debug.log
+#testem.log
+#/typings
+#I am here
+# e2e
+#I am here
+#/e2e/*.js
+#/e2e/*.map
+#I am here
+
+# System Files
+#I am here
+#.DS_Store
+#Thumbs.db
+#I am here
