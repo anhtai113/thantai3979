@@ -1,0 +1,9 @@
+.cart .nav.flex-column{
+   z-index: 999;
+}
+.nav.flex-column{
+    position: fixed;
+}
+.nav-link{
+    font-size: 2em;
+}
