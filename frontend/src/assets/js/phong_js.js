@@ -1,7 +1,7 @@
 
 $().ready(()=>{
-    for(var i = 0; i < $("img").length; i++){
-        var m = new flyObject( $($("img")[i]));
+    for(var i = 0; i < $("img.cloud").length; i++){
+        var m = new flyObject( $($("img.cloud")[i]));
         m.fly();
     }
 
@@ -16,7 +16,11 @@ flyObject.prototype.fly = function(){
         var objWidth = this.obj.width();
         var winWidth = window.innerWidth;
 
-        var objX = ( this.obj.css("left") == "auto" ? 0 :this.obj.css("left") ).replace("px","");
+        var objX = 0;
+        if( this.obj.css("left") != "auto" ){
+            objX = this.obj.css("left").replace("px","");
+        }
+        // ( this.obj.css("left") == "auto" ? 0 :this.obj.css("left") );
         // var newObjX = parseInt(objX) + 1;
         // Checking pos
         if( objX >= (winWidth - objWidth) ){
