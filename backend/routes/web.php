@@ -16,6 +16,18 @@
 // });
 
 Auth::routes();
-
 Route::get('/', 'HomeController@index')->name('home');
+
 Route::get('/logout','Auth\LoginController@logout')->name('logout');
+
+Route::group(['middleware' => ['auth']],function(){
+
+	Route::get('/','DashboardController@index')->name('dashboard');
+
+	Route::group(['prefix'=>'users','namespace'=>'Users'],function(){
+		Route::get('/','UserController@index')->name('user.index');
+	});
+
+
+
+});

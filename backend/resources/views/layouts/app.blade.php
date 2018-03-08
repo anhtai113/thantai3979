@@ -10,7 +10,7 @@
    <meta name="author" content="">
    <!-- CSRF Token -->
    <meta name="csrf-token" content="{{ csrf_token() }}">
-   <title>SB Admin - Start Bootstrap Template</title>
+   <title>SB Admin</title>
    <!-- Bootstrap core CSS-->
    <link href="{{url('css/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
    <!-- Custom fonts for this template-->
@@ -58,8 +58,7 @@
 </main>
 
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+   
     <!-- Bootstrap core JavaScript-->
     <script src="{{url('css/vendor/jquery/jquery.min.js')}}"></script>
     <script src="{{url('css/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
@@ -74,7 +73,7 @@
     <!-- Custom scripts for this page-->
     <script src="{{url('css/js/sb-admin-datatables.min.js')}}"></script>
     <script src="{{url('css/js/sb-admin-charts.min.js')}}"></script>
-  </div>
+
 </body>
 
 </html>
