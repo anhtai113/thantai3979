@@ -1,5 +1,5 @@
 .cart .nav.flex-column{
-   z-index: 999;
+   /* z-index: 999; */
 }
 .nav.flex-column{
     position: fixed;
@@ -8,35 +8,3 @@
     font-size: 2em;
 }
 
-.img.cloud{
-    position: absolute;
-    left:100px;
-    width:150px;
-    z-index: 80;
-    top: 5px;
-}
-
-.img0.cloud{
-    position:absolute;
-    right:20px;
-    top:100px;
-    width: 150px;
-    z-index: 80;
-}
-
-.img1.cloud{
-    position:absolute;
-    right:400px;
-    top:120px;
-    
-    width: 150px;
-    z-index: 80;
-}
-
-.img2.cloud{
-    position:absolute;
-    right:200px;
-    top:150px;
-    width: 150px;
-    z-index: 80;
-}
