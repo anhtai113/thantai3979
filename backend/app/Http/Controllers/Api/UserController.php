@@ -96,7 +96,7 @@ class UserController extends Controller
     public function show()
     {
        
-        $data = $this->model->find($this->id_user);
+        $data = $this->model->find(Auth::id());
         return $this->dataSuccess('Successful', $data);
     }
 
